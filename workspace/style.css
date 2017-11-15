@@ -1,0 +1,1671 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+body {
+  display: block;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+
+
+}
+
+.homepage { 
+  /* The image used */
+  background-image: url("images/parallax.png");
+
+  /* Set a specific height */
+  height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  object-fit: none;
+ 
+}
+
+.homepage1 { 
+  /* The image used */
+  background-image: url("images/parallax.png");
+
+  /* Set a specific height */
+  height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+
+}
+
+.cityofparisart {
+  
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: black;
+  padding: 0;
+  
+
+  
+}
+
+
+
+
+.homeheader1  {
+
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  letter-spacing: 15px;
+  color: #1F487E;
+  text-shadow:5px 5px 10px black;
+  font-weight: 1400;
+  line-height: 0.05;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+
+
+
+
+}
+
+.homeheader2 {
+
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  letter-spacing: 15px;
+  color: #FFF8F1;
+  text-shadow:5px 5px 10px black;
+  font-weight: 1400;
+  line-height: 0.05;
+  align-items: center;
+
+
+
+
+
+
+  
+}
+.homeheader3 {
+
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  letter-spacing: 15px;
+  text-shadow:5px 5px 10px black;
+  font-weight: 1400;
+  color: #CA4738;
+  line-height: 0.05;
+  align-items: center;
+
+}
+.homeimg{
+  
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.sidenav{
+
+  display: flex;
+  left: -80px;
+  justify-content: center;
+  
+  
+}
+
+
+
+#mySidenav a {
+  position:fixed; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.7s; /* Add transition on hover */
+  padding: 40px; /* 15px padding */
+  width: 20%; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: black; 
+  border-radius: 0 0px 0px 0; /* Rounded corners on the top right and bottom right side */
+  
+
+
+
+  
+
+}
+
+#mySidenav a:hover {
+  left: 0;/* On mouse-over, make the elements appear as they should */
+  text-align: center;
+
+}
+
+
+
+
+.beforevisitingbtn {
+  top: 155px;
+  background-color: #1F487E; /* Blue */
+
+
+}
+
+.attractionbtn {
+  top: 255px;
+  background-color: #FFF8F1; /* Red */
+
+}
+
+.funfactbtn {
+  top: 358px;
+  background-color: #CA4738; /* Light Black */
+
+  
+}
+
+.beforevisitinggrid {
+  
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  flex-direction: column;
+  margin-bottom: -160px;
+  margin-top: 100PX;
+  
+
+  
+
+  
+}
+.thingsyouneedtoknowheader   {
+  display: flex;
+  font-size: 15px;
+  margin-bottom: -30px;
+  
+  
+}
+  
+.beforevisitingheader {
+  
+  display: flex;
+  font-size: 60px;
+  letter-spacing: 10px;
+  
+}
+
+.beforevisitinghdrs{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-bottom: 300px;
+
+  
+}
+
+
+
+.beforevisitingcontent {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 500px;
+  margin-top: -100px;
+  
+ 
+}
+
+
+.avoidauguscontainer {
+  
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  color: white;
+  text-shadow: 5px 7px 8px #000000;  
+
+
+
+  
+
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.avoidaugustimg {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px
+}
+
+.avoidaugustoverlay {
+  position: absolute;
+
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1F487E;
+  border-radius: 150px
+
+  
+}
+
+.avoidauguscontainer:hover .avoidaugustoverlay {
+  opacity: 1;
+}
+
+.avoidaugusttext {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  justify-content: center;
+}
+
+.stayclosecontainer {
+
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  color: white;
+  text-shadow: 5px 7px 8px #000000;   
+  
+
+}
+
+
+.stayclosedcentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.stayclosetimg {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px
+
+}
+
+.staycloseoverlay {
+  position: absolute;
+
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1F487E;
+  border-radius: 150px
+
+
+}
+
+.stayclosecontainer:hover .staycloseoverlay {
+  opacity: 1;
+}
+
+.stayclosetext {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.metrocontainer {
+
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  color: white;
+  text-shadow: 5px 7px 8px #000000;  
+}
+
+
+.metrocentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metroimg {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px
+
+}
+
+.metrooverlay {
+  position: absolute;
+
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1F487E;
+  border-radius: 150px
+
+
+}
+
+.metrocontainer:hover .metrooverlay {
+  opacity: 1;
+}
+
+.metrotext {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.languagecontainer {
+
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+  color: white;
+  text-shadow: 5px 7px 8px #000000;  
+
+
+}
+
+
+.languagecentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.languagetimg {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px
+
+}
+
+.languageoverlay {
+  position: absolute;
+
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1F487E;
+  border-radius: 150px
+
+
+}
+
+.languagecontainer:hover .languageoverlay {
+  opacity: 1;
+}
+
+.languagetext {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+.taketheboatcontainer {
+
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+  color: white;
+  text-shadow: 5px 7px 8px #000000;  
+
+}
+
+
+.taketheboatcentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.taketheboatimg {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px
+
+}
+
+.taketeboatoverlay {
+  position: absolute;
+
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1F487E;
+  border-radius: 150px
+
+
+}
+
+.taketheboatcontainer:hover .taketeboatoverlay {
+  opacity: 1;
+}
+
+.taketheboattext {
+  color: white;
+  font-size: 19px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.eaticonecontainer {
+
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 35px;
+  color: white;
+  text-shadow: 5px 7px 8px #000000;  
+
+}
+
+
+.eaticonecentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.eaticoneimg {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px
+
+}
+
+.eaticoneoverlay {
+  position: absolute;
+
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1F487E;
+  border-radius: 150px
+
+
+}
+
+.eaticonecontainer:hover .eaticoneoverlay {
+  opacity: 1;
+}
+
+.eaticonetext {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.danceclubcontainer {
+
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+  text-shadow: 5px 7px 8px #000000;  
+
+}
+
+
+.danceclubcentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.danceclubimg {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px
+
+}
+
+.dancecluboverlay {
+  position: absolute;
+
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1F487E;
+  border-radius: 150px
+
+
+}
+
+.danceclubcontainer:hover .dancecluboverlay {
+  opacity: 1;
+}
+
+.danceclubtext {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.stepupclothingcontainer {
+
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+  text-shadow: 5px 7px 8px #000000;  
+
+
+}
+
+
+.stepupclothingcentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.stepupclothingimg {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px
+
+}
+
+.stepupclothingoverlay {
+  position: absolute;
+
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1F487E;
+  border-radius: 150px
+
+
+}
+
+.stepupclothingcontainer:hover .stepupclothingoverlay {
+  opacity: 1;
+}
+
+.stepupclothingtext {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/*attraction part*/
+/*attraction part*/
+/*attraction part*/
+/*attraction part*/
+/*attraction part*/
+/*attraction part*/
+
+
+
+.attractionsgrid {
+
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  flex-direction: column;
+  margin-top: 400px;
+  align-content: center;
+  align-items: center;
+
+
+
+}
+.getthebestheader   {
+  display: flex;
+  font-size: 15px;
+  margin-bottom: -40px;
+}
+
+.battractionsheader {
+
+  display: flex;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+.attractionshdrs{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 160px;
+
+
+}
+
+.attractionscontent {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.eiffeltowercontainer {
+  
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+
+
+}
+
+.eiffeltowerimg {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.eiffeltoweroverlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+
+
+}
+
+.eiffeltowercontainer:hover .eiffeltowerimg {
+  opacity: 0.3;
+
+}
+
+.eiffeltowercontainer:hover .eiffeltoweroverlay {
+  opacity: 0.8;
+
+}
+
+.eiffeltowertext a{
+  display: flex;
+  background-color: #FFF8F1;
+  font-size: 40px;
+  padding: 10px 10px;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+}
+
+.thelouvrecontainer {
+
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+  border-top: 4px solid black;
+
+}
+
+.thelouvreimg {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.thelouvreoverlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+
+
+}
+
+.thelouvrecontainer:hover .thelouvreimg {
+  opacity: 0.3;
+
+}
+
+.thelouvrecontainer:hover .thelouvreoverlay {
+  opacity: 0.8;
+
+}
+
+.thelouvretext a{
+  display: flex;
+  background-color: #FFF8F1;
+  color: FFF8F1;
+  font-size: 40px;
+  padding: 10px 10px;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+}
+
+.arcdeytriomphecontainer {
+
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+  border-top: 4px solid black;
+
+}
+
+.arcdeytriompheimg {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.arcdeytriompheoverlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+
+
+}
+
+.arcdeytriomphecontainer:hover .arcdeytriompheimg {
+  opacity: 0.3;
+
+}
+
+.arcdeytriomphecontainer:hover .arcdeytriompheoverlay {
+  opacity: 0.8;
+
+}
+
+.arcdeytriomphetext a{
+  display: flex;
+  background-color: #FFF8F1;
+  color: FFF8F1;
+  font-size: 40px;
+  padding: 10px 10px;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+}
+
+.notredamedepariscontainer {
+
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+  border-top: 4px solid black;
+  border-right: 4px solid black;
+
+}
+
+.notredamedeparisimg {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.notredamedeparisoverlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+
+
+}
+
+.notredamedepariscontainer:hover .notredamedeparisimg {
+  opacity: 0.3;
+
+}
+
+.notredamedepariscontainer:hover .notredamedeparisoverlay {
+  opacity: 0.8;
+
+}
+
+.notredamedeparistext a {
+  display: flex;
+  background-color: #FFF8F1;
+  color: FFF8F1;
+  font-size: 40px;
+  padding: 10px 10px;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+}
+
+.sacrecurcontainer {
+
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+
+
+}
+
+.sacrecurimg {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.sacrecuroverlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+
+}
+
+.sacrecurcontainer:hover .sacrecurimg {
+  opacity: 0.3;
+
+}
+
+.sacrecurcontainer:hover .sacrecuroverlay {
+  opacity: 0.8;
+
+}
+
+.sacrecurtext a {
+  background-color: #FFF8F1;
+  color: FFF8F1;
+  font-size: 40px;
+  padding: 2px 2px;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+}
+
+.tuileriesgardencontainer {
+
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-bottom: 4px solid black;
+
+}
+
+.tuileriesgardenimg {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.tuileriesgardenoverlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+
+}
+
+.tuileriesgardencontainer:hover .tuileriesgardenimg {
+  opacity: 0.3;
+
+}
+
+.tuileriesgardencontainer:hover .tuileriesgardenoverlay {
+  opacity: 0.8;
+
+}
+
+.tuileriesgardentext a{
+  background-color: #FFF8F1;
+  color: FFF8F1;
+  font-size: 40px;
+  padding: 2px 2px;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+}
+
+.champselyseescontainer {
+
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-bottom: 4px solid black;
+
+}
+
+.champselyseesimg {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.champselyseesoverlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+
+
+}
+
+.champselyseescontainer:hover .champselyseesimg {
+  opacity: 0.3;
+
+}
+
+.champselyseescontainer:hover .champselyseesoverlay {
+  opacity: 0.8;
+
+}
+
+.champselyseestext a {
+  background-color: #FFF8F1;
+  color: FFF8F1;
+  font-size: 40px;
+  padding: 2px 2px;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+}
+
+.disneylandpariscontainer {
+
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+
+
+
+}
+
+.disneylandparisimg {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+
+.disneylandparisoverlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+
+
+
+}
+
+.disneylandpariscontainer:hover .disneylandparisimg {
+  opacity: 0.3;
+
+}
+
+.disneylandpariscontainer:hover .disneylandparisoverlay {
+  opacity: 0.8;
+
+}
+
+.disneylandparistext a {
+  display: flex;
+  background-color: #FFF8F1;
+  color: FFF8F1;
+  font-size: 40px;
+  padding: 10px 10px;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  
+}
+
+
+.funfactsgrid {
+
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+
+
+
+}
+
+.funfactsshdrs{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: -50px;
+
+
+
+}
+.beamazedbyheader   {
+  display: flex;
+  font-size: 15px;
+}
+
+.funfactsheader {
+
+  display: flex;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: -50px;
+}
+
+
+
+
+
+.funfactscontent {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+
+}
+
+
+.funfactcontainer1 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+
+}
+
+
+.funfactcontainer1img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 100px
+
+}
+
+
+.funfactcontainer1overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #CA4738;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.9;
+  border-radius: 100px
+
+
+
+}
+
+.funfactcontainer1:hover .funfactcontainer1overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.funfactcontainer1text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+
+}
+
+
+
+.funfactcontainer2 {
+
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+
+
+}
+
+
+
+
+.funfactcontainer2img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 100px
+
+}
+
+.funfactcontainer2overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #CA4738;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.9;
+  border-radius: 100px
+
+
+
+}
+
+.funfactcontainer2:hover .funfactcontainer2overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.funfactcontainer2text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+.funfactcontainer3 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+
+}
+
+
+.funfactcontainer3img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 100px
+
+}
+
+.funfactcontainer3overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #CA4738;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.9;
+  border-radius: 100px
+
+
+
+}
+
+.funfactcontainer3:hover .funfactcontainer3overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.funfactcontainer3text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+.funfactcontainer4 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-top: 150px;
+
+}
+
+.funfactcontainer4img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 100px
+
+}
+
+.funfactcontainer4overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #CA4738;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.9;
+  border-radius: 100px
+
+
+
+}
+
+.funfactcontainer4:hover .funfactcontainer4overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.funfactcontainer4text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+
+.funfactcontainer5 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+
+}
+
+.funfactcontainer5img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 100px
+
+}
+
+.funfactcontainer5overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #CA4738;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.9;
+  border-radius: 100px
+
+
+
+}
+
+.funfactcontainer5:hover .funfactcontainer5overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.funfactcontainer5text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+
+.funfactcontainer6 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+
+}
+
+.funfactcontainer6img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 100px
+
+}
+
+.funfactcontainer6overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #CA4738;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.9;
+  border-radius: 100px
+
+
+}
+
+.funfactcontainer6:hover .funfactcontainer6overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.funfactcontainer6text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+.funfactcontainer7 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+
+}
+
+
+.funfactcontainer7img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 100px
+
+}
+
+.funfactcontainer7overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #CA4738;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.9;
+  border-radius: 100px
+
+
+
+}
+
+.funfactcontainer7:hover .funfactcontainer7overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.funfactcontainer7text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+
+.funfactcontainer8 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+
+}
+
+
+.funfactcontainer8img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 100px
+
+}
+
+.funfactcontainer8overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #CA4738;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.9;
+  border-radius: 100px
+
+
+
+}
+
+.funfactcontainer8:hover .funfactcontainer8overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.funfactcontainer8text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  flex-wrap: wrap;
+  text-align: center;
+}
